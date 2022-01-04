@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
-import axios from 'axios';
+
 import { useSelector, useDispatch } from 'react-redux';
 
 const ImageDetail = () =>{
@@ -12,7 +12,7 @@ const ImageDetail = () =>{
     const comments = useSelector((state) => state.allComments.comments);
     const commentList = comments.find(cmt => cmt.imageid === Number(id));
     
-    const {imageid , comment} = commentList;
+    const { comment} = commentList;
     console.log(comment);
     
     

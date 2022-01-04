@@ -21,10 +21,10 @@ export default function Home() {
 
     useEffect(() =>{
         getImages();
-    },[]);
+    });
 
     const renderImg = images.map((image) =>{
-        const{id,author,width,height,url,download_url} = image;
+        const{id,author,width,height,download_url} = image;
         return ( <div className="container mt-4" key={id}>
             <Link to={`/image/${id}/${width}/${height}`}> 
         <div className="pic card mt-4" >
