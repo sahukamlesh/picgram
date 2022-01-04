@@ -1,0 +1,60 @@
+.footer {
+  position:fixed;
+  height: 40px;
+  background-color:#222222;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: aliceblue;
+  flex-shrink: 0;
+}
+
+.error{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic{
+  max-height: 50%;
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.pic1{
+  max-width: 60%;
+  max-height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cmt{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.cmt1{
+  margin-top: 10px;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.right{
+  float: right;
+}
